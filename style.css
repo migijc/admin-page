@@ -1,0 +1,39 @@
+.sideBar{
+    background-color: #ffc300;
+    height: 1fr;
+}
+
+.header{
+    background-color: #003566;
+    height: 15vh;
+}
+
+.mainContent{
+    background-color: #e7eaec;
+    grid-area: 2/-2/-1/-1;
+    height: 85vh;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+p{
+    margin:0;
+}
+
+.profilePicture{
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 90px;
+}
+
