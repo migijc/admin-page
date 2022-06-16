@@ -54,6 +54,10 @@ body{
     background-color: rgb(77, 72, 72);
     border-radius: 15px;
     border-left: 16px solid rgb(23, 51, 110);
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
    
 }
 
@@ -269,6 +273,148 @@ button{
     left:11rem;
 }
 
+.interactions{
+    display: flex;
+    gap:1rem;
+    justify-content: flex-end;
+    position: relative;
+    top: 1rem;
+    right: 2rem;
+}
 
+.articleHeader{
+    color: rgb(189, 187, 187);
+    position: relative;
+    margin-left: 2rem;
+    font-size: 18px;
+}
 
+.articleContents{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color:rgb(119, 117, 117);
+}
+
+.interaction{
+    color: rgb(189, 187, 187);
+}
+
+.announcementLine{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    background-color: rgb(39, 38, 38);
+    margin-top: .4rem;
+    
+    
+    
+}
+
+.announcement1,
+.announcement2,
+.announcement3{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.announcement2{
+    margin-top: .6rem;
+}
+
+.announcementHeader{
+   color: rgb(189, 187, 187);
+   font-size: 15px;
+}
+
+.announcementContent{
+    color:rgb(119, 117, 117);
+    font-size: 14px;
+}
+
+.announcement3{
+    margin-top: .6rem;
+}
+
+.trendingItems{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    left: 1rem;
+    top: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.trendingProfilePic1{
+    background-image: url(.//img/doctorstrange1-650x365.jpg);
+    width: 3rem;
+    height: 3rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position-x: 30%;
+    border-radius: 90px;
+    
+    border: 3px solid rgb(23, 51, 110);
+}
+
+.trendingProfilePic2{
+    background-image: url(.//img/thanos-avengers-infinity-war-hd-ld.jpg);
+    width: 3rem;
+    height: 3rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position-x: 30%;
+    border-radius: 90px;
+    
+    border: 3px solid rgb(23, 51, 110);
+}
+
+.trendingProfilePic3{
+    background-image: url(.//img/wolvy.jpg);
+    width: 3rem;
+    height: 3rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position-x: 30%;
+    border-radius: 90px;
+    
+    border: 3px solid rgb(23, 51, 110);
+}
+
+.trendingProfilePic4{
+    background-image: url(.///img/natasha.jpg);
+    width: 3rem;
+    height: 3rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position-x: 30%;
+    border-radius: 90px;
+    
+    border: 3px solid rgb(23, 51, 110);
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.trendingUsername{
+    color: rgb(189, 187, 187);
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.trendingUserBio{
+    color:rgb(119, 117, 117);
+    font-size: 14px;
+
+}
+
+.trendingNameAndBio{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
  
