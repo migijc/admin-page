@@ -237,7 +237,7 @@ button{
 .buttons{
     display: flex;
     width: 35rem;
-    gap: 3rem;
+    gap: 1.5rem;
     position: relative;
     justify-content: flex-end;
     top:.5rem;
